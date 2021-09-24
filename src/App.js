@@ -17,7 +17,7 @@ class App extends React.Component {
           </span>
           <Switch>
             <Route path="/movies/new" component={ NewMovie } />
-            <Route exact path="/" component={ MovieList } />
+            <Route exact path="/ProjectMovieCrud" component={ MovieList } />
             <Route
               exact
               path="/movies/:id/edit"
