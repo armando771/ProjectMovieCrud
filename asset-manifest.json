@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ProjectMovieCrud/static/css/main.29008e67.chunk.css",
+    "main.js": "/ProjectMovieCrud/static/js/main.0649c407.chunk.js",
+    "main.js.map": "/ProjectMovieCrud/static/js/main.0649c407.chunk.js.map",
+    "runtime-main.js": "/ProjectMovieCrud/static/js/runtime-main.722e311a.js",
+    "runtime-main.js.map": "/ProjectMovieCrud/static/js/runtime-main.722e311a.js.map",
+    "static/js/2.99c87304.chunk.js": "/ProjectMovieCrud/static/js/2.99c87304.chunk.js",
+    "static/js/2.99c87304.chunk.js.map": "/ProjectMovieCrud/static/js/2.99c87304.chunk.js.map",
+    "index.html": "/ProjectMovieCrud/index.html",
+    "static/css/main.29008e67.chunk.css.map": "/ProjectMovieCrud/static/css/main.29008e67.chunk.css.map",
+    "static/js/2.99c87304.chunk.js.LICENSE.txt": "/ProjectMovieCrud/static/js/2.99c87304.chunk.js.LICENSE.txt",
+    "static/media/Appleseed_Alpha.30ae10ef.jpg": "/ProjectMovieCrud/static/media/Appleseed_Alpha.30ae10ef.jpg",
+    "static/media/Final_Fantasy_Spirits_Within.b8097429.jpg": "/ProjectMovieCrud/static/media/Final_Fantasy_Spirits_Within.b8097429.jpg",
+    "static/media/Ghost_In_The_Shell_2_0.2cabe5f9.jpg": "/ProjectMovieCrud/static/media/Ghost_In_The_Shell_2_0.2cabe5f9.jpg",
+    "static/media/Kingsglaive_Final_Fantasy_XV.ec78b774.jpg": "/ProjectMovieCrud/static/media/Kingsglaive_Final_Fantasy_XV.ec78b774.jpg",
+    "static/media/Resident_Evil_Vendetta.ffeb1d1b.jpg": "/ProjectMovieCrud/static/media/Resident_Evil_Vendetta.ffeb1d1b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.722e311a.js",
+    "static/js/2.99c87304.chunk.js",
+    "static/css/main.29008e67.chunk.css",
+    "static/js/main.0649c407.chunk.js"
+  ]
+}
