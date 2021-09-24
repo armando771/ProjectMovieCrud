@@ -1,0 +1,71 @@
+#NewMovieContainer {
+  text-align: center;
+  background-color: rgb(167, 166, 166);
+  margin: auto;
+  padding: 30px 40px 20px 40px;
+}
+
+#movie_title {
+  width: 200px;
+}
+
+#MovieTitleContainer {
+  margin: 10px;
+}
+
+#movie_subtitle {
+  width: 200px;
+}
+
+#MovieSubTitleContainer {
+  margin: 10px;
+}
+
+#movie_image {
+  width: 200px;
+}
+
+#MovieImageContainer {
+  margin: 10px;
+}
+
+#movie_storyline {
+  width: 300px !important;
+  height: 12em !important;
+}
+
+#MovieTextAreaContainer {
+  margin: 10px;
+}
+
+#movie_genre {
+  width: 85px;
+}
+
+#MovieSelectContainer {
+  margin: 10px;
+}
+
+#MovieRatingContainer {
+  margin: 10px 10px 30px 10px;
+}
+
+#movie_rating {
+  width: 75px;
+}
+
+#buttonSubmit {
+  padding: 10px;
+  text-decoration: none;
+  background-color: #444444af;
+  color: black;
+  border: none;
+}
+
+#buttonSubmit:hover {
+  color: white;
+  background-color: black;
+  border: none;
+  transform: scale(1.2, 1.2);
+  transform-origin: center;
+}

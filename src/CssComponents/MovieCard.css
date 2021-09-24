@@ -1,0 +1,29 @@
+.movie-container {
+  border: solid 1px black;
+  margin: 50px;
+  max-width: 500px;
+  text-align: center;
+  background-color: whitesmoke;
+  box-shadow: inset 0 0 1em black , 0 0 1em black;
+}
+
+.movie-container:hover {
+  transform: scale(1.1, 1.2);
+  transform-origin: center;
+}
+
+img {
+  width: 500px;
+}
+
+#movie-card-title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#movie-card-storyline {
+  color: rgb(77, 77, 77);
+  margin: 5px;
+  text-align: justify;
+  padding-bottom: 50px;
+}

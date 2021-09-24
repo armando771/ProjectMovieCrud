@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(250, 229, 229);
+  box-sizing: border-box;
+}
+
+a:link, a:visited {
+  background-color: #444444af;
+  color: black;
+  display: inline-flex;
+  justify-content: center;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  width: 25%;
+}
+
+a:hover {
+  background-color:black;
+  color: white;
+  width: 40%;
+}
+
+#AddCard {
+  text-align: center;
+}
+
+#app-js-container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#movie-list-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}

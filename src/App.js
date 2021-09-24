@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import MovieList from './pages/MovieList';
+import NotFound from './pages/NotFound';
+import MovieDetails from './pages/MovieDetails';
+import EditMovie from './pages/EditMovie';
+import NewMovie from './pages/NewMovie';
+import './CssComponents/App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div id="app-js-container">
+        <BrowserRouter>
+          <span id="AddCard">
+            <Link to="/movies/new">ADICIONAR CARTÃO</Link>
+          </span>
+          <Switch>
+            <Route path="/movies/new" component={ NewMovie } />
+            <Route exact path="/" component={ MovieList } />
+            <Route
+              exact
+              path="/movies/:id/edit"
+              render={ (props) => <EditMovie { ...props } /> }
+            />
+            <Route
+              path="/movies/:id"
+              render={ (props) => <MovieDetails { ...props } /> }
+            />
+            <Route path="" component={ NotFound } />
+          </Switch>
+        </BrowserRouter>
+      </div>
+    );
+  }
 }
 
 export default App;
